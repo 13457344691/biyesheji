@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet2" targetNamespace="http://tempuri.org/DataSet2.xsd" xmlns:mstns="http://tempuri.org/DataSet2.xsd" xmlns="http://tempuri.org/DataSet2.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet2" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DataSet2" msprop:Generator_DataSetName="DataSet2">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="参考文献信息" msprop:Generator_UserTableName="参考文献信息" msprop:Generator_RowDeletedName="参考文献信息RowDeleted" msprop:Generator_TableClassName="参考文献信息DataTable" msprop:Generator_RowChangedName="参考文献信息RowChanged" msprop:Generator_RowClassName="参考文献信息Row" msprop:Generator_RowChangingName="参考文献信息RowChanging" msprop:Generator_RowEvArgName="参考文献信息RowChangeEvent" msprop:Generator_RowEvHandlerName="参考文献信息RowChangeEventHandler" msprop:Generator_TablePropName="参考文献信息" msprop:Generator_TableVarName="table参考文献信息" msprop:Generator_RowDeletingName="参考文献信息RowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="借阅编号" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="借阅编号" msprop:Generator_ColumnPropNameInRow="借阅编号" msprop:Generator_ColumnVarNameInTable="column借阅编号" msprop:Generator_ColumnPropNameInTable="借阅编号Column" type="xs:int" />
+              <xs:element name="书名" msprop:Generator_UserColumnName="书名" msprop:Generator_ColumnPropNameInRow="书名" msprop:Generator_ColumnVarNameInTable="column书名" msprop:Generator_ColumnPropNameInTable="书名Column" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="借阅时间" msprop:Generator_UserColumnName="借阅时间" msprop:Generator_ColumnPropNameInRow="借阅时间" msprop:Generator_ColumnVarNameInTable="column借阅时间" msprop:Generator_ColumnPropNameInTable="借阅时间Column" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="应还时间" msprop:Generator_UserColumnName="应还时间" msprop:Generator_ColumnPropNameInRow="应还时间" msprop:Generator_ColumnVarNameInTable="column应还时间" msprop:Generator_ColumnPropNameInTable="应还时间Column" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="状态" msprop:Generator_UserColumnName="状态" msprop:Generator_ColumnPropNameInRow="状态" msprop:Generator_ColumnVarNameInTable="column状态" msprop:Generator_ColumnPropNameInTable="状态Column" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="价格" msprop:Generator_UserColumnName="价格" msprop:Generator_ColumnPropNameInRow="价格" msprop:Generator_ColumnVarNameInTable="column价格" msprop:Generator_ColumnPropNameInTable="价格Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="出版社" msprop:Generator_UserColumnName="出版社" msprop:Generator_ColumnPropNameInRow="出版社" msprop:Generator_ColumnVarNameInTable="column出版社" msprop:Generator_ColumnPropNameInTable="出版社Column" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:参考文献信息" />
+      <xs:field xpath="mstns:借阅编号" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

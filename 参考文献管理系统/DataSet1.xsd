@@ -1,0 +1,409 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DataSet1" msprop:Generator_DataSetName="DataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="参考文献类型" msprop:Generator_UserTableName="参考文献类型" msprop:Generator_RowDeletedName="参考文献类型RowDeleted" msprop:Generator_RowChangedName="参考文献类型RowChanged" msprop:Generator_RowClassName="参考文献类型Row" msprop:Generator_RowChangingName="参考文献类型RowChanging" msprop:Generator_RowEvArgName="参考文献类型RowChangeEvent" msprop:Generator_RowEvHandlerName="参考文献类型RowChangeEventHandler" msprop:Generator_TableClassName="参考文献类型DataTable" msprop:Generator_TableVarName="table参考文献类型" msprop:Generator_RowDeletingName="参考文献类型RowDeleting" msprop:Generator_TablePropName="参考文献类型">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="类型编号" msprop:Generator_UserColumnName="类型编号" msprop:Generator_ColumnPropNameInRow="类型编号" msprop:Generator_ColumnVarNameInTable="column类型编号" msprop:Generator_ColumnPropNameInTable="类型编号Column">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="类型名称" msprop:Generator_UserColumnName="类型名称" msprop:Generator_ColumnPropNameInRow="类型名称" msprop:Generator_ColumnVarNameInTable="column类型名称" msprop:Generator_ColumnPropNameInTable="类型名称Column" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="可借天数" msprop:Generator_UserColumnName="可借天数" msprop:Generator_ColumnPropNameInRow="可借天数" msprop:Generator_ColumnVarNameInTable="column可借天数" msprop:Generator_ColumnPropNameInTable="可借天数Column" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="参考文献信息" msprop:Generator_UserTableName="参考文献信息" msprop:Generator_RowDeletedName="参考文献信息RowDeleted" msprop:Generator_RowChangedName="参考文献信息RowChanged" msprop:Generator_RowClassName="参考文献信息Row" msprop:Generator_RowChangingName="参考文献信息RowChanging" msprop:Generator_RowEvArgName="参考文献信息RowChangeEvent" msprop:Generator_RowEvHandlerName="参考文献信息RowChangeEventHandler" msprop:Generator_TableClassName="参考文献信息DataTable" msprop:Generator_TableVarName="table参考文献信息" msprop:Generator_RowDeletingName="参考文献信息RowDeleting" msprop:Generator_TablePropName="参考文献信息">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="条形码" msprop:Generator_UserColumnName="条形码" msprop:Generator_ColumnVarNameInTable="column条形码" msprop:Generator_ColumnPropNameInRow="条形码" msprop:Generator_ColumnPropNameInTable="条形码Column" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="40" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="编号" msprop:Generator_UserColumnName="编号" msprop:Generator_ColumnVarNameInTable="column编号" msprop:Generator_ColumnPropNameInRow="编号" msprop:Generator_ColumnPropNameInTable="编号Column">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="书名" msprop:Generator_UserColumnName="书名" msprop:Generator_ColumnVarNameInTable="column书名" msprop:Generator_ColumnPropNameInRow="书名" msprop:Generator_ColumnPropNameInTable="书名Column" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="类型" msprop:Generator_UserColumnName="类型" msprop:Generator_ColumnVarNameInTable="column类型" msprop:Generator_ColumnPropNameInRow="类型" msprop:Generator_ColumnPropNameInTable="类型Column" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="作者" msprop:Generator_UserColumnName="作者" msprop:Generator_ColumnVarNameInTable="column作者" msprop:Generator_ColumnPropNameInRow="作者" msprop:Generator_ColumnPropNameInTable="作者Column" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="译者" msprop:Generator_UserColumnName="译者" msprop:Generator_ColumnVarNameInTable="column译者" msprop:Generator_ColumnPropNameInRow="译者" msprop:Generator_ColumnPropNameInTable="译者Column" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ISBN" msprop:Generator_UserColumnName="ISBN" msprop:Generator_ColumnVarNameInTable="columnISBN" msprop:Generator_ColumnPropNameInRow="ISBN" msprop:Generator_ColumnPropNameInTable="ISBNColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="40" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="出版社" msprop:Generator_UserColumnName="出版社" msprop:Generator_ColumnVarNameInTable="column出版社" msprop:Generator_ColumnPropNameInRow="出版社" msprop:Generator_ColumnPropNameInTable="出版社Column" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="价格" msprop:Generator_UserColumnName="价格" msprop:Generator_ColumnVarNameInTable="column价格" msprop:Generator_ColumnPropNameInRow="价格" msprop:Generator_ColumnPropNameInTable="价格Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="页码" msprop:Generator_UserColumnName="页码" msprop:Generator_ColumnVarNameInTable="column页码" msprop:Generator_ColumnPropNameInRow="页码" msprop:Generator_ColumnPropNameInTable="页码Column" type="xs:int" minOccurs="0" />
+              <xs:element name="书架名称" msprop:Generator_UserColumnName="书架名称" msprop:Generator_ColumnVarNameInTable="column书架名称" msprop:Generator_ColumnPropNameInRow="书架名称" msprop:Generator_ColumnPropNameInTable="书架名称Column" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="现存量" msprop:Generator_UserColumnName="现存量" msprop:Generator_ColumnVarNameInTable="column现存量" msprop:Generator_ColumnPropNameInRow="现存量" msprop:Generator_ColumnPropNameInTable="现存量Column" type="xs:int" minOccurs="0" />
+              <xs:element name="库存总量" msprop:Generator_UserColumnName="库存总量" msprop:Generator_ColumnVarNameInTable="column库存总量" msprop:Generator_ColumnPropNameInRow="库存总量" msprop:Generator_ColumnPropNameInTable="库存总量Column" type="xs:int" minOccurs="0" />
+              <xs:element name="入库时间" msprop:Generator_UserColumnName="入库时间" msprop:Generator_ColumnVarNameInTable="column入库时间" msprop:Generator_ColumnPropNameInRow="入库时间" msprop:Generator_ColumnPropNameInTable="入库时间Column" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="操作员" msprop:Generator_UserColumnName="操作员" msprop:Generator_ColumnVarNameInTable="column操作员" msprop:Generator_ColumnPropNameInRow="操作员" msprop:Generator_ColumnPropNameInTable="操作员Column" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="简介" msprop:Generator_UserColumnName="简介" msprop:Generator_ColumnVarNameInTable="column简介" msprop:Generator_ColumnPropNameInRow="简介" msprop:Generator_ColumnPropNameInTable="简介Column" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="借出次数" msprop:Generator_UserColumnName="借出次数" msprop:Generator_ColumnVarNameInTable="column借出次数" msprop:Generator_ColumnPropNameInRow="借出次数" msprop:Generator_ColumnPropNameInTable="借出次数Column" type="xs:int" minOccurs="0" />
+              <xs:element name="是否注销" msprop:Generator_UserColumnName="是否注销" msprop:Generator_ColumnVarNameInTable="column是否注销" msprop:Generator_ColumnPropNameInRow="是否注销" msprop:Generator_ColumnPropNameInTable="是否注销Column" type="xs:boolean" />
+              <xs:element name="借阅编号" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="借阅编号" msprop:Generator_ColumnPropNameInRow="借阅编号" msprop:Generator_ColumnVarNameInTable="column借阅编号" msprop:Generator_ColumnPropNameInTable="借阅编号Column" type="xs:int" />
+              <xs:element name="借阅时间" msprop:Generator_UserColumnName="借阅时间" msprop:Generator_ColumnPropNameInRow="借阅时间" msprop:Generator_ColumnVarNameInTable="column借阅时间" msprop:Generator_ColumnPropNameInTable="借阅时间Column" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="应还时间" msprop:Generator_UserColumnName="应还时间" msprop:Generator_ColumnPropNameInRow="应还时间" msprop:Generator_ColumnVarNameInTable="column应还时间" msprop:Generator_ColumnPropNameInTable="应还时间Column" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="状态" msprop:Generator_UserColumnName="状态" msprop:Generator_ColumnPropNameInRow="状态" msprop:Generator_ColumnVarNameInTable="column状态" msprop:Generator_ColumnPropNameInTable="状态Column" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="出版社" msprop:Generator_UserTableName="出版社" msprop:Generator_RowDeletedName="出版社RowDeleted" msprop:Generator_RowChangedName="出版社RowChanged" msprop:Generator_RowClassName="出版社Row" msprop:Generator_RowChangingName="出版社RowChanging" msprop:Generator_RowEvArgName="出版社RowChangeEvent" msprop:Generator_RowEvHandlerName="出版社RowChangeEventHandler" msprop:Generator_TableClassName="出版社DataTable" msprop:Generator_TableVarName="table出版社" msprop:Generator_RowDeletingName="出版社RowDeleting" msprop:Generator_TablePropName="出版社">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="出版社编号" msprop:Generator_UserColumnName="出版社编号" msprop:Generator_ColumnPropNameInRow="出版社编号" msprop:Generator_ColumnVarNameInTable="column出版社编号" msprop:Generator_ColumnPropNameInTable="出版社编号Column" type="xs:int" />
+              <xs:element name="ISBN" msprop:Generator_UserColumnName="ISBN" msprop:Generator_ColumnPropNameInRow="ISBN" msprop:Generator_ColumnVarNameInTable="columnISBN" msprop:Generator_ColumnPropNameInTable="ISBNColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="40" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="出版社名称" msprop:Generator_UserColumnName="出版社名称" msprop:Generator_ColumnPropNameInRow="出版社名称" msprop:Generator_ColumnVarNameInTable="column出版社名称" msprop:Generator_ColumnPropNameInTable="出版社名称Column" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="管理员信息" msprop:Generator_UserTableName="管理员信息" msprop:Generator_RowDeletedName="管理员信息RowDeleted" msprop:Generator_RowChangedName="管理员信息RowChanged" msprop:Generator_RowClassName="管理员信息Row" msprop:Generator_RowChangingName="管理员信息RowChanging" msprop:Generator_RowEvArgName="管理员信息RowChangeEvent" msprop:Generator_RowEvHandlerName="管理员信息RowChangeEventHandler" msprop:Generator_TableClassName="管理员信息DataTable" msprop:Generator_TableVarName="table管理员信息" msprop:Generator_RowDeletingName="管理员信息RowDeleting" msprop:Generator_TablePropName="管理员信息">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="编号" msprop:Generator_UserColumnName="编号" msprop:Generator_ColumnVarNameInTable="column编号" msprop:Generator_ColumnPropNameInRow="编号" msprop:Generator_ColumnPropNameInTable="编号Column">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="姓名" msprop:Generator_UserColumnName="姓名" msprop:Generator_ColumnVarNameInTable="column姓名" msprop:Generator_ColumnPropNameInRow="姓名" msprop:Generator_ColumnPropNameInTable="姓名Column" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="年龄" msprop:Generator_UserColumnName="年龄" msprop:Generator_ColumnVarNameInTable="column年龄" msprop:Generator_ColumnPropNameInRow="年龄" msprop:Generator_ColumnPropNameInTable="年龄Column" type="xs:int" minOccurs="0" />
+              <xs:element name="权限" msprop:Generator_UserColumnName="权限" msprop:Generator_ColumnVarNameInTable="column权限" msprop:Generator_ColumnPropNameInRow="权限" msprop:Generator_ColumnPropNameInTable="权限Column" type="xs:int" minOccurs="0" />
+              <xs:element name="说明" msprop:Generator_UserColumnName="说明" msprop:Generator_ColumnVarNameInTable="column说明" msprop:Generator_ColumnPropNameInRow="说明" msprop:Generator_ColumnPropNameInTable="说明Column" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="联系电话" msprop:Generator_UserColumnName="联系电话" msprop:Generator_ColumnVarNameInTable="column联系电话" msprop:Generator_ColumnPropNameInRow="联系电话" msprop:Generator_ColumnPropNameInTable="联系电话Column" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="住址" msprop:Generator_UserColumnName="住址" msprop:Generator_ColumnVarNameInTable="column住址" msprop:Generator_ColumnPropNameInRow="住址" msprop:Generator_ColumnPropNameInTable="住址Column" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="照片" msprop:Generator_UserColumnName="照片" msprop:Generator_ColumnVarNameInTable="column照片" msprop:Generator_ColumnPropNameInRow="照片" msprop:Generator_ColumnPropNameInTable="照片Column" type="xs:base64Binary" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="参考文献注销" msprop:Generator_UserTableName="参考文献注销" msprop:Generator_RowDeletedName="参考文献注销RowDeleted" msprop:Generator_RowChangedName="参考文献注销RowChanged" msprop:Generator_RowClassName="参考文献注销Row" msprop:Generator_RowChangingName="参考文献注销RowChanging" msprop:Generator_RowEvArgName="参考文献注销RowChangeEvent" msprop:Generator_RowEvHandlerName="参考文献注销RowChangeEventHandler" msprop:Generator_TableClassName="参考文献注销DataTable" msprop:Generator_TableVarName="table参考文献注销" msprop:Generator_RowDeletingName="参考文献注销RowDeleting" msprop:Generator_TablePropName="参考文献注销">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="注销编号" msprop:Generator_UserColumnName="注销编号" msprop:Generator_ColumnPropNameInRow="注销编号" msprop:Generator_ColumnVarNameInTable="column注销编号" msprop:Generator_ColumnPropNameInTable="注销编号Column" type="xs:int" />
+              <xs:element name="参考文献编号" msprop:Generator_UserColumnName="参考文献编号" msprop:Generator_ColumnPropNameInRow="参考文献编号" msprop:Generator_ColumnVarNameInTable="column参考文献编号" msprop:Generator_ColumnPropNameInTable="参考文献编号Column">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="注销数量" msprop:Generator_UserColumnName="注销数量" msprop:Generator_ColumnPropNameInRow="注销数量" msprop:Generator_ColumnVarNameInTable="column注销数量" msprop:Generator_ColumnPropNameInTable="注销数量Column" type="xs:int" minOccurs="0" />
+              <xs:element name="注销时间" msprop:Generator_UserColumnName="注销时间" msprop:Generator_ColumnPropNameInRow="注销时间" msprop:Generator_ColumnVarNameInTable="column注销时间" msprop:Generator_ColumnPropNameInTable="注销时间Column" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="操作员" msprop:Generator_UserColumnName="操作员" msprop:Generator_ColumnPropNameInRow="操作员" msprop:Generator_ColumnVarNameInTable="column操作员" msprop:Generator_ColumnPropNameInTable="操作员Column" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="确定注销" msprop:Generator_UserColumnName="确定注销" msprop:Generator_ColumnPropNameInRow="确定注销" msprop:Generator_ColumnVarNameInTable="column确定注销" msprop:Generator_ColumnPropNameInTable="确定注销Column" type="xs:boolean" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="参考文献征订" msprop:Generator_UserTableName="参考文献征订" msprop:Generator_RowDeletedName="参考文献征订RowDeleted" msprop:Generator_RowChangedName="参考文献征订RowChanged" msprop:Generator_RowClassName="参考文献征订Row" msprop:Generator_RowChangingName="参考文献征订RowChanging" msprop:Generator_RowEvArgName="参考文献征订RowChangeEvent" msprop:Generator_RowEvHandlerName="参考文献征订RowChangeEventHandler" msprop:Generator_TableClassName="参考文献征订DataTable" msprop:Generator_TableVarName="table参考文献征订" msprop:Generator_RowDeletingName="参考文献征订RowDeleting" msprop:Generator_TablePropName="参考文献征订">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="征订编号" msprop:Generator_UserColumnName="征订编号" msprop:Generator_ColumnVarNameInTable="column征订编号" msprop:Generator_ColumnPropNameInRow="征订编号" msprop:Generator_ColumnPropNameInTable="征订编号Column">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="参考文献编号" msprop:Generator_UserColumnName="参考文献编号" msprop:Generator_ColumnVarNameInTable="column参考文献编号" msprop:Generator_ColumnPropNameInRow="参考文献编号" msprop:Generator_ColumnPropNameInTable="参考文献编号Column">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="订购者" msprop:Generator_UserColumnName="订购者" msprop:Generator_ColumnVarNameInTable="column订购者" msprop:Generator_ColumnPropNameInRow="订购者" msprop:Generator_ColumnPropNameInTable="订购者Column" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="订购者联系方式" msprop:Generator_UserColumnName="订购者联系方式" msprop:Generator_ColumnVarNameInTable="column订购者联系方式" msprop:Generator_ColumnPropNameInRow="订购者联系方式" msprop:Generator_ColumnPropNameInTable="订购者联系方式Column" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="订购数量" msprop:Generator_UserColumnName="订购数量" msprop:Generator_ColumnVarNameInTable="column订购数量" msprop:Generator_ColumnPropNameInRow="订购数量" msprop:Generator_ColumnPropNameInTable="订购数量Column" type="xs:int" minOccurs="0" />
+              <xs:element name="订购单价" msprop:Generator_UserColumnName="订购单价" msprop:Generator_ColumnVarNameInTable="column订购单价" msprop:Generator_ColumnPropNameInRow="订购单价" msprop:Generator_ColumnPropNameInTable="订购单价Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="订购日期" msprop:Generator_UserColumnName="订购日期" msprop:Generator_ColumnVarNameInTable="column订购日期" msprop:Generator_ColumnPropNameInRow="订购日期" msprop:Generator_ColumnPropNameInTable="订购日期Column" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="是否验收" msprop:Generator_UserColumnName="是否验收" msprop:Generator_ColumnVarNameInTable="column是否验收" msprop:Generator_ColumnPropNameInRow="是否验收" msprop:Generator_ColumnPropNameInTable="是否验收Column" type="xs:boolean" minOccurs="0" />
+              <xs:element name="验收日期" msprop:Generator_UserColumnName="验收日期" msprop:Generator_ColumnVarNameInTable="column验收日期" msprop:Generator_ColumnPropNameInRow="验收日期" msprop:Generator_ColumnPropNameInTable="验收日期Column" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="操作员" msprop:Generator_UserColumnName="操作员" msprop:Generator_ColumnVarNameInTable="column操作员" msprop:Generator_ColumnPropNameInRow="操作员" msprop:Generator_ColumnPropNameInTable="操作员Column" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="读者信息" msprop:Generator_UserTableName="读者信息" msprop:Generator_RowDeletedName="读者信息RowDeleted" msprop:Generator_RowChangedName="读者信息RowChanged" msprop:Generator_RowClassName="读者信息Row" msprop:Generator_RowChangingName="读者信息RowChanging" msprop:Generator_RowEvArgName="读者信息RowChangeEvent" msprop:Generator_RowEvHandlerName="读者信息RowChangeEventHandler" msprop:Generator_TableClassName="读者信息DataTable" msprop:Generator_TableVarName="table读者信息" msprop:Generator_RowDeletingName="读者信息RowDeleting" msprop:Generator_TablePropName="读者信息">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="条形码" msprop:Generator_UserColumnName="条形码" msprop:Generator_ColumnVarNameInTable="column条形码" msprop:Generator_ColumnPropNameInRow="条形码" msprop:Generator_ColumnPropNameInTable="条形码Column" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="40" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="编号" msprop:Generator_UserColumnName="编号" msprop:Generator_ColumnVarNameInTable="column编号" msprop:Generator_ColumnPropNameInRow="编号" msprop:Generator_ColumnPropNameInTable="编号Column">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="姓名" msprop:Generator_UserColumnName="姓名" msprop:Generator_ColumnVarNameInTable="column姓名" msprop:Generator_ColumnPropNameInRow="姓名" msprop:Generator_ColumnPropNameInTable="姓名Column" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="性别" msprop:Generator_UserColumnName="性别" msprop:Generator_ColumnVarNameInTable="column性别" msprop:Generator_ColumnPropNameInRow="性别" msprop:Generator_ColumnPropNameInTable="性别Column" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="8" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="类型" msprop:Generator_UserColumnName="类型" msprop:Generator_ColumnVarNameInTable="column类型" msprop:Generator_ColumnPropNameInRow="类型" msprop:Generator_ColumnPropNameInTable="类型Column">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="出生日期" msprop:Generator_UserColumnName="出生日期" msprop:Generator_ColumnVarNameInTable="column出生日期" msprop:Generator_ColumnPropNameInRow="出生日期" msprop:Generator_ColumnPropNameInTable="出生日期Column" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="有效证件" msprop:Generator_UserColumnName="有效证件" msprop:Generator_ColumnVarNameInTable="column有效证件" msprop:Generator_ColumnPropNameInRow="有效证件" msprop:Generator_ColumnPropNameInTable="有效证件Column" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="60" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="证件号码" msprop:Generator_UserColumnName="证件号码" msprop:Generator_ColumnVarNameInTable="column证件号码" msprop:Generator_ColumnPropNameInRow="证件号码" msprop:Generator_ColumnPropNameInTable="证件号码Column" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="60" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="联系方式" msprop:Generator_UserColumnName="联系方式" msprop:Generator_ColumnVarNameInTable="column联系方式" msprop:Generator_ColumnPropNameInRow="联系方式" msprop:Generator_ColumnPropNameInTable="联系方式Column" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="登记日期" msprop:Generator_UserColumnName="登记日期" msprop:Generator_ColumnVarNameInTable="column登记日期" msprop:Generator_ColumnPropNameInRow="登记日期" msprop:Generator_ColumnPropNameInTable="登记日期Column" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="有限期至" msprop:Generator_UserColumnName="有限期至" msprop:Generator_ColumnVarNameInTable="column有限期至" msprop:Generator_ColumnPropNameInRow="有限期至" msprop:Generator_ColumnPropNameInTable="有限期至Column" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="操作员" msprop:Generator_UserColumnName="操作员" msprop:Generator_ColumnVarNameInTable="column操作员" msprop:Generator_ColumnPropNameInRow="操作员" msprop:Generator_ColumnPropNameInTable="操作员Column" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="备注" msprop:Generator_UserColumnName="备注" msprop:Generator_ColumnVarNameInTable="column备注" msprop:Generator_ColumnPropNameInRow="备注" msprop:Generator_ColumnPropNameInTable="备注Column" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="参考文献借阅次数" msprop:Generator_UserColumnName="参考文献借阅次数" msprop:Generator_ColumnVarNameInTable="column参考文献借阅次数" msprop:Generator_ColumnPropNameInRow="参考文献借阅次数" msprop:Generator_ColumnPropNameInTable="参考文献借阅次数Column" type="xs:int" minOccurs="0" />
+              <xs:element name="期刊借阅次数" msprop:Generator_UserColumnName="期刊借阅次数" msprop:Generator_ColumnVarNameInTable="column期刊借阅次数" msprop:Generator_ColumnPropNameInRow="期刊借阅次数" msprop:Generator_ColumnPropNameInTable="期刊借阅次数Column" type="xs:int" minOccurs="0" />
+              <xs:element name="是否挂失" msprop:Generator_UserColumnName="是否挂失" msprop:Generator_ColumnVarNameInTable="column是否挂失" msprop:Generator_ColumnPropNameInRow="是否挂失" msprop:Generator_ColumnPropNameInTable="是否挂失Column" type="xs:boolean" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="读者类型" msprop:Generator_UserTableName="读者类型" msprop:Generator_RowDeletedName="读者类型RowDeleted" msprop:Generator_TableClassName="读者类型DataTable" msprop:Generator_RowChangedName="读者类型RowChanged" msprop:Generator_RowClassName="读者类型Row" msprop:Generator_RowChangingName="读者类型RowChanging" msprop:Generator_RowEvArgName="读者类型RowChangeEvent" msprop:Generator_RowEvHandlerName="读者类型RowChangeEventHandler" msprop:Generator_TablePropName="读者类型" msprop:Generator_TableVarName="table读者类型" msprop:Generator_RowDeletingName="读者类型RowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="类型" msprop:Generator_UserColumnName="类型" msprop:Generator_ColumnPropNameInRow="类型" msprop:Generator_ColumnVarNameInTable="column类型" msprop:Generator_ColumnPropNameInTable="类型Column">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="参考文献册数" msprop:Generator_UserColumnName="参考文献册数" msprop:Generator_ColumnPropNameInRow="参考文献册数" msprop:Generator_ColumnVarNameInTable="column参考文献册数" msprop:Generator_ColumnPropNameInTable="参考文献册数Column" type="xs:short" minOccurs="0" />
+              <xs:element name="期刊册数" msprop:Generator_UserColumnName="期刊册数" msprop:Generator_ColumnPropNameInRow="期刊册数" msprop:Generator_ColumnVarNameInTable="column期刊册数" msprop:Generator_ColumnPropNameInTable="期刊册数Column" type="xs:short" minOccurs="0" />
+              <xs:element name="续借次数" msprop:Generator_UserColumnName="续借次数" msprop:Generator_ColumnPropNameInRow="续借次数" msprop:Generator_ColumnVarNameInTable="column续借次数" msprop:Generator_ColumnPropNameInTable="续借次数Column" type="xs:int" minOccurs="0" />
+              <xs:element name="限制参考文献" msprop:Generator_UserColumnName="限制参考文献" msprop:Generator_ColumnPropNameInRow="限制参考文献" msprop:Generator_ColumnVarNameInTable="column限制参考文献" msprop:Generator_ColumnPropNameInTable="限制参考文献Column" type="xs:boolean" minOccurs="0" />
+              <xs:element name="限制期刊" msprop:Generator_UserColumnName="限制期刊" msprop:Generator_ColumnPropNameInRow="限制期刊" msprop:Generator_ColumnVarNameInTable="column限制期刊" msprop:Generator_ColumnPropNameInTable="限制期刊Column" type="xs:boolean" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:参考文献类型" />
+      <xs:field xpath="mstns:类型编号" />
+    </xs:unique>
+    <xs:unique name="参考文献信息_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:参考文献信息" />
+      <xs:field xpath="mstns:编号" />
+    </xs:unique>
+    <xs:unique name="出版社_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:出版社" />
+      <xs:field xpath="mstns:出版社编号" />
+    </xs:unique>
+    <xs:unique name="管理员信息_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:管理员信息" />
+      <xs:field xpath="mstns:编号" />
+    </xs:unique>
+    <xs:unique name="参考文献注销_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:参考文献注销" />
+      <xs:field xpath="mstns:注销编号" />
+    </xs:unique>
+    <xs:unique name="参考文献征订_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:参考文献征订" />
+      <xs:field xpath="mstns:征订编号" />
+    </xs:unique>
+    <xs:unique name="读者信息_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:读者信息" />
+      <xs:field xpath="mstns:编号" />
+    </xs:unique>
+    <xs:unique name="读者类型_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:读者类型" />
+      <xs:field xpath="mstns:类型" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

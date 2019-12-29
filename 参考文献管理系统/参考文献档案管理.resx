@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="dataSet11.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>299, 17</value>
+  </metadata>
+  <metadata name="sqlConnection1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="sqlSelectCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlSelectCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlInsertCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlInsertCommand1.CommandText" xml:space="preserve">
+    <value>INSERT INTO [参考文献信息] ([条形码], [编号], [书名], [类型], [作者], [译者], [ISBN], [出版社], [价格], [页码], [书架名称], [现存量], [库存总量], [入库时间], [操作员], [简介], [借出次数], [是否注销]) VALUES (@条形码, @编号, @书名, @类型, @作者, @译者, @ISBN, @出版社, @价格, @页码, @书架名称, @现存量, @库存总量, @入库时间, @操作员, @简介, @借出次数, @是否注销);
+SELECT 条形码, 编号, 书名, 类型, 作者, 译者, ISBN, 出版社, 价格, 页码, 书架名称, 现存量, 库存总量, 入库时间, 操作员, 简介, 借出次数, 是否注销 FROM 参考文献信息 WHERE (编号 = @编号)</value>
+  </data>
+  <metadata name="sqlUpdateCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlUpdateCommand1.CommandText" xml:space="preserve">
+    <value>UPDATE [参考文献信息] SET [条形码] = @条形码, [编号] = @编号, [书名] = @书名, [类型] = @类型, [作者] = @作者, [译者] = @译者, [ISBN] = @ISBN, [出版社] = @出版社, [价格] = @价格, [页码] = @页码, [书架名称] = @书架名称, [现存量] = @现存量, [库存总量] = @库存总量, [入库时间] = @入库时间, [操作员] = @操作员, [简介] = @简介, [借出次数] = @借出次数, [是否注销] = @是否注销 WHERE (((@IsNull_条形码 = 1 AND [条形码] IS NULL) OR ([条形码] = @Original_条形码)) AND ([编号] = @Original_编号) AND ((@IsNull_书名 = 1 AND [书名] IS NULL) OR ([书名] = @Original_书名)) AND ((@IsNull_类型 = 1 AND [类型] IS NULL) OR ([类型] = @Original_类型)) AND ((@IsNull_作者 = 1 AND [作者] IS NULL) OR ([作者] = @Original_作者)) AND ((@IsNull_译者 = 1 AND [译者] IS NULL) OR ([译者] = @Original_译者)) AND ((@IsNull_ISBN = 1 AND [ISBN] IS NULL) OR ([ISBN] = @Original_ISBN)) AND ((@IsNull_出版社 = 1 AND [出版社] IS NULL) OR ([出版社] = @Original_出版社)) AND ((@IsNull_价格 = 1 AND [价格] IS NULL) OR ([价格] = @Original_价格)) AND ((@IsNull_页码 = 1 AND [页码] IS NULL) OR ([页码] = @Original_页码)) AND ((@IsNull_书架名称 = 1 AND [书架名称] IS NULL) OR ([书架名称] = @Original_书架名称)) AND ((@IsNull_现存量 = 1 AND [现存量] IS NULL) OR ([现存量] = @Original_现存量)) AND ((@IsNull_库存总量 = 1 AND [库存总量] IS NULL) OR ([库存总量] = @Original_库存总量)) AND ((@IsNull_入库时间 = 1 AND [入库时间] IS NULL) OR ([入库时间] = @Original_入库时间)) AND ((@IsNull_操作员 = 1 AND [操作员] IS NULL) OR ([操作员] = @Original_操作员)) AND ((@IsNull_简介 = 1 AND [简介] IS NULL) OR ([简介] = @Original_简介)) AND ((@IsNull_借出次数 = 1 AND [借出次数] IS NULL) OR ([借出次数] = @Original_借出次数)) AND ([是否注销] = @Original_是否注销));
+SELECT 条形码, 编号, 书名, 类型, 作者, 译者, ISBN, 出版社, 价格, 页码, 书架名称, 现存量, 库存总量, 入库时间, 操作员, 简介, 借出次数, 是否注销 FROM 参考文献信息 WHERE (编号 = @编号)</value>
+  </data>
+  <metadata name="sqlDeleteCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlDeleteCommand1.CommandText" xml:space="preserve">
+    <value>DELETE FROM [参考文献信息] WHERE (((@IsNull_条形码 = 1 AND [条形码] IS NULL) OR ([条形码] = @Original_条形码)) AND ([编号] = @Original_编号) AND ((@IsNull_书名 = 1 AND [书名] IS NULL) OR ([书名] = @Original_书名)) AND ((@IsNull_类型 = 1 AND [类型] IS NULL) OR ([类型] = @Original_类型)) AND ((@IsNull_作者 = 1 AND [作者] IS NULL) OR ([作者] = @Original_作者)) AND ((@IsNull_译者 = 1 AND [译者] IS NULL) OR ([译者] = @Original_译者)) AND ((@IsNull_ISBN = 1 AND [ISBN] IS NULL) OR ([ISBN] = @Original_ISBN)) AND ((@IsNull_出版社 = 1 AND [出版社] IS NULL) OR ([出版社] = @Original_出版社)) AND ((@IsNull_价格 = 1 AND [价格] IS NULL) OR ([价格] = @Original_价格)) AND ((@IsNull_页码 = 1 AND [页码] IS NULL) OR ([页码] = @Original_页码)) AND ((@IsNull_书架名称 = 1 AND [书架名称] IS NULL) OR ([书架名称] = @Original_书架名称)) AND ((@IsNull_现存量 = 1 AND [现存量] IS NULL) OR ([现存量] = @Original_现存量)) AND ((@IsNull_库存总量 = 1 AND [库存总量] IS NULL) OR ([库存总量] = @Original_库存总量)) AND ((@IsNull_入库时间 = 1 AND [入库时间] IS NULL) OR ([入库时间] = @Original_入库时间)) AND ((@IsNull_操作员 = 1 AND [操作员] IS NULL) OR ([操作员] = @Original_操作员)) AND ((@IsNull_简介 = 1 AND [简介] IS NULL) OR ([简介] = @Original_简介)) AND ((@IsNull_借出次数 = 1 AND [借出次数] IS NULL) OR ([借出次数] = @Original_借出次数)) AND ([是否注销] = @Original_是否注销))</value>
+  </data>
+  <metadata name="sqlDataAdapter1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>155, 17</value>
+  </metadata>
+</root>
